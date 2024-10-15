@@ -1,9 +1,11 @@
+import CollapsSection from "./CollapsSection.jsx";
+
 const About = () => {
-    return (
-        <div>
-            About
-        </div>
-    );
+  return (
+    <div className="m-4">
+        <CollapsSection />
+    </div>
+  );
 };
 
 export default About;
